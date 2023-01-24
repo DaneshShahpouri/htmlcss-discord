@@ -59,13 +59,24 @@ header{
 
 .nav_menu .link li a{
     text-decoration: none;
-    color: white;
+    color: rgb(206, 206, 206);
+    font-size: 0.9em;
+}
+
+.nav_menu .link li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 /* fine NAVMENU */
 
 .nav .login{
     background-color: white;
     border: none;
+}
+
+.nav .login:hover{
+    color: white;
+    background-color: rgb(114, 137, 218);
 }
 /* fine NAVBAR */
     
@@ -104,10 +115,21 @@ header{
    margin-right: 15px;
 }
 
+.jumbo .download_mac:hover{
+    background-color: rgb(114, 137, 218);
+    color: white;
+}
+
 .jumbo .browser_open{
     color: white;
     background-color:rgb(35, 39, 42);
 }
+
+.jumbo .browser_open:hover{
+    background-color: white;
+    color: rgb(114, 137, 218);
+}
+
 /* fineJUMBO */
 /* Fine HEADER */
 
@@ -248,6 +270,11 @@ main .container{
    color: white;
 }
 
+.five .btn_five:hover{
+    background-color: white;
+    color: rgb(114, 137, 218);
+}
+
 /* fine section five */
 /* fine Section */
 /* fineMAIN */
@@ -288,7 +315,7 @@ footer .content_footer{
     font-size: 1.7em;
     color:rgb(114, 137, 218);
 
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .column .select_wrapper{
@@ -324,6 +351,11 @@ footer .content_footer{
 }
 
 .column .social_wrapper .logo_social img{
+    filter: invert(0.8);
+    cursor: pointer;
+}
+
+.column .social_wrapper .logo_social img:hover{
     filter: invert(1);
 }
 
@@ -343,9 +375,17 @@ footer .content_footer{
 }
 
 .column ul li a{
-    color:white;
+    color:rgb(198, 198, 198);
     text-decoration: none;
+    padding-left: 5px;
 }
+
+.column ul li a:hover{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border-left: 2px solid rgb(114, 137, 218);;
+}
+  
   
 .content_inner .footer_bottom{
     height: 70px;
@@ -362,5 +402,10 @@ footer .content_footer{
 .btn_footer{
    background-color: rgb(114, 137, 218);
    color: white;
+}
+
+.btn_footer:hover{
+    background-color: white;
+    color: rgb(114, 137, 218);
 }
 /* fine FOOTER */
