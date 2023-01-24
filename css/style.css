@@ -6,12 +6,10 @@
 }
 
 .btn{
-    width:100px;
-    height: 30px;
-    /* DEBUG */
-    
     border-radius: 20px;
     cursor: pointer;
+    padding: 10px 15px;
+    border: none;
 }
 /* fineUTILITY */
 
@@ -20,11 +18,8 @@
 /* HEADER */
 header{
     min-width: 720px;
-    background-color: rgba(37, 94, 233, 0.2);
-}
-
-header *{
-    background-color: rgba(37, 94, 233, 0.2);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 /* NAVBAR */
@@ -40,12 +35,6 @@ header *{
     align-items: center;
 }
 
-.logo{
-    width: 120px;
-    height: 70px;   
-    /* DEBUG */
-}
-
 /* NAVMENU */
 .nav_menu .link{ 
     display: flex;
@@ -54,32 +43,27 @@ header *{
     gap: 20px;
 }
 
-.nav_menu .link li{  
-    width: 100px;
-    height: 30px;
-    /* DEBUG */
-                
+.nav_menu .link li{   
     list-style-type: none;
 }
 
 .nav_menu .link li a{
     text-decoration: none;
+    color: white;
 }
 /* fine NAVMENU */
 
 .nav .login{
-    width: 90px;
-    height: 30px;
-    border: 2px solid white;
-     /* DEBUG */
+    background-color: white;
+    border: none;
 }
 /* fine NAVBAR */
     
 /* JUMBO */
 .jumbo{ 
     height: 400px;
-     /* DEBUG */
 
+    padding: 30px;
     width: 75%;
     max-width: 1500px;
     min-width: 720px;
@@ -93,27 +77,26 @@ header *{
     }
 
 .jumbo h1{
-    width: 450px;
-    height: 30px;
-    /* DEBUG */
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
 }
 
 .jumbo .paragraph{
-    display: inline-block;
-    width: 450px;
-    height: 150px;
-    /* DEBUG */
+    width: 70%;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .jumbo .download_mac{
-    border: 2px solid white;
-    /* DEBUG */
+   background-color: white;
+   margin-right: 15px;
 }
 
 .jumbo .browser_open{
-    width: 140px;
-    border: 2px solid rgb(0, 0, 0);
-    /* DEBUG */
+    color: white;
+    background-color:rgb(35, 39, 42);
 }
 /* fineJUMBO */
 /* Fine HEADER */
