@@ -1,0 +1,366 @@
+/* UTILITY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.btn{
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+}
+
+.wave{
+    filter: opacity(0.03)
+}
+
+.rotate{
+    transform: rotate(0.5turn);
+}
+/* fineUTILITY */
+
+/* ------------------------------------------- */
+
+/* HEADER */
+header{
+    min-width: 720px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+/* NAVBAR */
+.nav{       
+    width: 75%;
+    max-width: 1500px;
+    min-width: 720px;
+    height: 70px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* NAVMENU */
+.nav_menu .link{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_menu .link li{   
+    list-style-type: none;
+}
+
+.nav_menu .link li a{
+    text-decoration: none;
+    color: white;
+}
+/* fine NAVMENU */
+
+.nav .login{
+    background-color: white;
+    border: none;
+}
+/* fine NAVBAR */
+    
+/* JUMBO */
+.jumbo{ 
+    height: 400px;
+
+    padding: 30px;
+    width: 75%;
+    max-width: 1500px;
+    min-width: 720px;
+    margin: 0 auto 50px auto;
+        
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    }
+
+.jumbo h1{
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.jumbo .paragraph{
+    width: 70%;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.jumbo .download_mac{
+   background-color: white;
+   margin-right: 15px;
+}
+
+.jumbo .browser_open{
+    color: white;
+    background-color:rgb(35, 39, 42);
+}
+/* fineJUMBO */
+/* Fine HEADER */
+
+/* MAIN */
+main {
+    min-width: 720px;
+}
+
+main .container{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+}
+
+/* Section */
+.section{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.section:nth-of-type(even){
+    background-color: rgb(246, 246, 246);
+}
+
+.section .section_inner{
+    width: 75%;
+    min-width: 720px;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.section_inner .img_wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section_inner .text{
+    width: 30%;
+    padding:0px 15px
+}
+
+.section_inner .text h2{
+    margin-bottom: 30px;
+    font-size: 2.1em;
+}
+
+.section_inner .text p{
+    font-size: 0.8em;
+}
+
+.section_inner .img_wrapper img{
+    width: 100%;
+    max-height: 80%;
+}
+
+.section:nth-of-type(even) .section_inner .text{
+    order: -1;
+}
+
+/* section four */
+.section.four .section_inner{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.four .section_inner .img_wrapper{
+    width: 100%;
+
+}
+
+.four .section_inner .text{
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.four .section_inner .text h2{
+   text-align: center;
+}
+
+.four .section_inner .text p{
+    text-align: center;
+}
+/* fineprova testo e imamgini  */   
+/* fine section four */
+
+/* section five */
+.five{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(246, 246, 246);
+    /* DEBUG */
+}
+
+.five_inner{
+    width: 75%;
+    min-width: 720px;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin: 0 auto;
+    padding-bottom: 150px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.five span{
+    display: inline-block;
+    width: 420px;
+    height: 40px;
+    margin:20px auto;
+    
+    text-align: center;
+    line-height: 60px;
+
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
+.five .btn_five{
+   background-color: rgb(114, 137, 218);
+   color: white;
+}
+
+/* fine section five */
+/* fine Section */
+/* fineMAIN */
+
+/* FOOTER */
+footer{
+    min-width: 720px;
+    background-color: rgb(35, 39, 42);
+    padding-top: 50px;
+}
+
+footer .content_footer{
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 720px;
+}
+
+.content_inner{
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.content_inner .column{
+    width: 18% ;
+}
+
+.content_inner .column:first-child{
+    width: 25%;
+    padding-right: 40px;
+}
+
+/* Prima colonna */
+.column h3{
+    font-size: 1.7em;
+    color:rgb(114, 137, 218);
+
+    margin: 20px 0;
+}
+
+.column .select_wrapper{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+    
+.column .select_wrapper img{
+    width: 10%;
+}
+
+.column .select_wrapper form #nation{
+   background-color: transparent;
+   border: none;
+   color: white;
+   font-size: 1em;
+}
+
+.column .social_wrapper{
+    width: 60%;
+    margin: 10 auto;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column .social_wrapper .logo_social{
+    width: 30px;
+    height:30px;
+}
+
+.column .social_wrapper .logo_social img{
+    filter: invert(1);
+}
+
+/* finePrima colonna */
+
+.column ul{
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+.column ul li:first-child{
+    color: rgb(114, 137, 218);
+}
+
+.column ul li{
+    padding: 3px 0px;
+}
+
+.column ul li a{
+    color:white;
+    text-decoration: none;
+}
+  
+.content_inner .footer_bottom{
+    height: 70px;
+    /* debug */
+    width: 100%;
+    border-top: 2px solid rgb(79, 93, 140);
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_footer{
+   background-color: rgb(114, 137, 218);
+   color: white;
+}
+/* fine FOOTER */
