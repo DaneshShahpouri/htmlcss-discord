@@ -1,0 +1,444 @@
+/* UTILITY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    width:100px;
+    height: 30px;
+    /* DEBUG */
+    
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* fineUTILITY */
+
+/* ------------------------------------------- */
+
+/* HEADER */
+header{
+    min-width: 720px;
+    background-color: rgba(37, 94, 233, 0.2);
+}
+
+header *{
+    background-color: rgba(37, 94, 233, 0.2);
+}
+
+/* NAVBAR */
+.nav{       
+    width: 75%;
+    max-width: 1500px;
+    min-width: 720px;
+    height: 70px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: 70px;   
+    /* DEBUG */
+}
+
+/* NAVMENU */
+.nav_menu .link{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_menu .link li{  
+    width: 100px;
+    height: 30px;
+    /* DEBUG */
+                
+    list-style-type: none;
+}
+
+.nav_menu .link li a{
+    text-decoration: none;
+}
+/* fine NAVMENU */
+
+.nav .login{
+    width: 90px;
+    height: 30px;
+    border: 2px solid white;
+     /* DEBUG */
+}
+/* fine NAVBAR */
+    
+/* JUMBO */
+.jumbo{ 
+    height: 400px;
+     /* DEBUG */
+
+    width: 75%;
+    max-width: 1500px;
+    min-width: 720px;
+    margin:auto;
+        
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    }
+
+.jumbo h1{
+    width: 450px;
+    height: 30px;
+    /* DEBUG */
+}
+
+.jumbo .paragraph{
+    display: inline-block;
+    width: 450px;
+    height: 150px;
+    /* DEBUG */
+}
+
+.jumbo .download_mac{
+    border: 2px solid white;
+    /* DEBUG */
+}
+
+.jumbo .browser_open{
+    width: 140px;
+    border: 2px solid rgb(0, 0, 0);
+    /* DEBUG */
+}
+/* fineJUMBO */
+/* Fine HEADER */
+
+/* MAIN */
+main {
+    min-width: 720px;
+}
+main *{
+    background-color: rgb(0 158 7 / 20%);
+}
+
+main .container{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+}
+
+/* Section */
+.section{
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    /* debug */
+}
+
+.section:nth-child(even){
+    background-color: rgb(246, 246, 246);
+}
+
+.section .section_inner{
+    width: 75%;
+    min-width: 720px;
+    max-width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section_inner .img_wrapper{
+    width: 60%;
+    height: 450px;
+        
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section_inner .text{
+    width: 30%;
+    height: 450px;
+}
+
+.section_inner .img_wrapper img{
+    width: 100%;
+    height: 100%;
+    display: inline_block;
+    /* debug */
+}
+
+/* section one*/
+    
+/* prova testo e imamgini  */
+/* DA CANCELLARE */
+.one .section_inner .img_wrapper img{
+    width: 100%;
+    height: 80%;
+    display: inline_block;
+    /* debug */
+        
+}
+
+
+.one .section_inner .text h2{
+    width: 100%;
+    height: 250px;
+    /* debug */
+}
+
+.one .section_inner .text p{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    /* debug */
+}
+
+/* fine prova testo e immagini  */
+/* fine section one*/
+
+/* section two */
+.two .section_inner .img_wrapper{
+   order: 2;
+}
+
+.two .section_inner .text{
+    order: 1;
+}
+
+/* prova testo e imamgini  */
+/* DA CANCELLARE */
+.two .section_inner .text h2{
+    width: 100%;
+    height: 150px;
+    /* debug */
+}
+.two .section_inner .text p{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    /* debug */
+}
+/* fineprova testo e imamgini  */ 
+/* fine section two */
+
+
+/* section three */
+/* prova testo e imamgini  */
+/* DA CANCELLARE */
+.three .section_inner .text h2{
+    width: 100%;
+    height: 150px;
+    /* debug */
+}
+
+.three .section_inner .text p{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    /* debug */
+}
+/* fineprova testo e imamgini  */
+/* fine section three */
+
+/* section four */
+.section.four .section_inner{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.four .section_inner .img_wrapper{
+    width: 80%;
+    order: 2;
+}
+
+.four .section_inner .text{
+    width: 100%;
+    height: 200px;
+    /* debug */
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+
+/* prova testo e imamgini  */
+/* DA CANCELLARE */
+.four .section_inner .text h2{
+    width: 80%;
+    height: 50px;
+    /* debug */
+}
+
+.four .section_inner .text p{
+    margin-top: 20px;
+    width: 80%;
+    height: 100px;
+    /* debug */
+}
+/* fineprova testo e imamgini  */   
+/* fine section four */
+
+/* section five */
+.five{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: rgb(246, 246, 246);
+    /* DEBUG */
+}
+
+.five_inner{
+    width: 75%;
+    min-width: 720px;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin: 0 auto;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.five span{
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    margin:20px auto;
+        /* debug */
+}
+
+.five .btn_five{
+    width: 120px;
+    border: 2px solid rgb(114, 137, 218);
+    /* debug */
+}
+/* fine section five */
+/* fine Section */
+/* fineMAIN */
+
+/* FOOTER */
+footer{
+    min-width: 720px;
+    background-color: rgb(35, 39, 42);
+    /* DEBUG */
+}
+
+footer *{
+background-color:  rgb(234, 234, 255, 0.1);
+}
+
+footer .content_footer{
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 720px;
+}
+
+.content_inner{
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.content_inner .column{
+    width: 18% ;
+}
+
+.content_inner .column:first-child{
+    width: 25%;
+}
+
+/* Prima colonna */
+.column h4{
+    width: 100%;
+    height: 150px;
+    border:2px solid rgb(13, 95, 188);
+    /* debug */
+}
+
+.column .select_wrapper{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+    
+.column .select_wrapper .bandiera{
+    width: 25%;
+    height: 30px;
+}
+
+.column .select_wrapper #nation{
+    display: inline-block;
+    width: 70%;
+    height: 20px;
+}
+
+.column .social_wrapper{
+    width: 80%;
+    margin: 10 auto;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column .social_wrapper .logo_social{
+    width: 30px;
+    height:30px;
+    /* debug */
+}
+/* finePrima colonna */
+
+.column ul{
+    list-style-type: none;
+}
+
+.column ul li:first-child{
+    border: 2px solid rgb(13, 95, 188);
+    /* debug */
+}
+
+.column ul li{
+    width: 90%;
+    height: 20px;
+    margin-top:10px;
+    /* debug */
+}
+  
+.content_inner .footer_bottom{
+    height: 70px;
+    /* debug */
+    width: 100%;
+    border-top: 2px solid rgb(79, 93, 140);
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_footer{
+    border: 2px solid rgb(68, 81, 125);
+    /* debug */
+}
+/* fine FOOTER */
