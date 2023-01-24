@@ -6,11 +6,15 @@
     align-items: center;
     padding: 50px;
     border-bottom: 2px solid rgb(114, 137, 218);
+
+   
 }
 
 .jumbo_second .img_wrapper{
+    max-width: 1500px;
+    min-width: 720px;
     width: 75%;
-
+    margin: 0 auto;
     display: flex;
     flex-flow: row nowrap;
 }
@@ -19,12 +23,13 @@
     width: 30%;
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
 }
 
 .jumbo_second .img_wrapper .text_wrapper h2{
     font-size: 2.2em;
     font-weight: 500;
+    margin-bottom:40px;
+    margin-top: 20px;
 }
 
 .jumbo_second .img_wrapper .text_wrapper p{
@@ -35,7 +40,7 @@
     width: 70%;
 }
 
-.bottons_wrapper{
+.buttons_wrapper{
     margin: 30px 0;
 }
 
@@ -91,12 +96,79 @@ main .container .download_card{
     width: 350px;
     height: 500px;
     max-height: 500px;
-    background-color: blue;
-    flex-grow:1
+    background-color: rgb(246, 246, 246);
+    flex-grow:1;
+
+    background-position-y: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
+
+.download_card .card_inner{
+    padding: 70px 0;
+    text-align: center;
+}
+
+.download_card h3{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.download_card .btn_dow{
+    background-color: rgb(54, 57, 63);
+    color: rgb(232, 232, 232);
+}
+
+.download_card .btn_dow:hover{
+    background-color: rgb(66, 69, 74);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.201);
+}
+
+/* sfondi card */
+.download_card#uno{
+    background-image: url(../img/iphone.png);
+}
+.download_card#due{
+    background-image: url(../img/linus.png);
+}
+.download_card#tre{
+    background-image: url(../img/android.png);
+}
+.download_card#quattro{
+    background-image: url(../img/mac.png);
+}
+
 main .container .box_descriction{
     height: 200px;
     width: 350px;
-    background-color: red;
-    flex-grow:1
+    
+    flex-grow:1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .container .box_descriction h4{
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+main .container .box_descriction p{
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+main .container .box_descriction button{
+    background-color: rgb(54, 57, 63);
+    color: white;
+    margin: ;
 }
